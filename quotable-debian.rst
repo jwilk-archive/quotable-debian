@@ -32,4 +32,11 @@ Debian X Strike Force member defending the decision to make the X server depend 
 
    -- `Julien Cristau, 2009-04-15 <http://lists.debian.org/1239821223.25727.25.camel@radis.liafa.jussieu.fr>`_
 
+Extreme anger about init system call-for-votes:
+
+   This unannounced CFV is an abuse of process.  I am EXTREMELY ANGRY
+   and I will sponsor any GR that seeks to overturn it.
+
+   -- `Ian Jackson, 2014-02-09 <http://lists.debian.org/21239.54254.395132.572483@chiark.greenend.org.uk>`_
+
 .. vim:ts=3 sw=3 et
