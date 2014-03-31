@@ -5,6 +5,32 @@ Foundation of Debian:
 
    -- `Ian Murdock, 1993-08-16 <https://groups.google.com/groups?selm=CBusDD.MIK%40unix.portal.com&output=gplain>`_
 
+The “testing” distribution proposal:
+
+   I made a relatively thorough proposal for a different approach to handling
+   the migrate of a package from an unstable-by-definition upload to a released
+   state a while back.
+
+   [...]
+
+      Any upload of a package is, by definition, "unstable" until proven
+      otherwise.
+
+      Therefore, uploads should *always* go into the unstable tree.
+
+      The process by which a package is "promoted" from unstable through one or
+      more stages until it becomes part of a stable release needs to involve
+      consistency checking, testing, and enough time elapsed to allow
+      confidence to build in the package.
+
+      The promotion criteria should include a guarantee that the release
+      candidate never has dependency issues, never has a package version with a
+      truly "release critical" bug known at the time of promotion, and so
+      forth. Those characteristics will always be part of the unstable tree...
+      but should *only* be part of the unstable tree!
+
+   -- `Bdale Garbee, 1999-01-05 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
+
 The first multi-arch proposal:
 
    I would love to see Debian adopt a solution that allows use of unmodified
