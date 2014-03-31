@@ -26,6 +26,20 @@ The first multi-arch proposal:
 
    -- `Bdale Garbee, 2001-06-04 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
 
+BTS version tracking announcement:
+
+   A frequently requested feature for the bug tracking system in recent years
+   has been the ability to track which bugs apply to which distributions, so
+   that, eg, maintainers and others can tell which bugs that have been fixed in
+   unstable still apply to packages in testing or stable.
+
+   This has now been implemented.
+
+   It is quite a far-reaching change, and you will probably want to adjust the
+   way you deal with the BTS as a consequence.
+
+   -- `Colin Watson <https://lists.debian.org/20050718110629.GA729@riva.ucam.org>`_
+
 Debian X Strike Force member defending the decision to make the X server depend on HAL:
 
    THIS IS NOT A FUCKING VOTE.
