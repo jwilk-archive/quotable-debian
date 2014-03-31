@@ -7,3 +7,5 @@ all: quotable-debian.html
 .PHONY: clean
 clean:
 	rm -f *.html
+
+# vim:ts=4 sw=4 noet
