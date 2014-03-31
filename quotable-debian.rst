@@ -64,7 +64,7 @@ BTS version tracking announcement:
    It is quite a far-reaching change, and you will probably want to adjust the
    way you deal with the BTS as a consequence.
 
-   -- `Colin Watson <https://lists.debian.org/20050718110629.GA729@riva.ucam.org>`_
+   -- `Colin Watson, 2005-07-18 <https://lists.debian.org/20050718110629.GA729@riva.ucam.org>`_
 
 Debian X Strike Force member defending the decision to make the X server depend on HAL:
 
