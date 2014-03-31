@@ -3,7 +3,7 @@ Foundation of Debian:
    This is just to announce the imminent completion of a brand-new Linux
    release, which I'm calling the Debian Linux Release.
 
-   -- `Ian Murdock, 1993-08-16 <http://groups.google.com/groups?selm=CBusDD.MIK%40unix.portal.com&output=gplain>`_
+   -- `Ian Murdock, 1993-08-16 <https://groups.google.com/groups?selm=CBusDD.MIK%40unix.portal.com&output=gplain>`_
 
 The first multi-arch proposal:
 
@@ -24,19 +24,19 @@ The first multi-arch proposal:
    expecting miracles. If I have to hack something interim while waiting for a
    general solution to be implemented, I can probably live with that.
 
-   -- `Bdale Garbee, 2001-06-04 <http://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
+   -- `Bdale Garbee, 2001-06-04 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
 
 Debian X Strike Force member defending the decision to make the X server depend on HAL:
 
    THIS IS NOT A FUCKING VOTE.
 
-   -- `Julien Cristau, 2009-04-15 <http://lists.debian.org/1239821223.25727.25.camel@radis.liafa.jussieu.fr>`_
+   -- `Julien Cristau, 2009-04-15 <https://lists.debian.org/1239821223.25727.25.camel@radis.liafa.jussieu.fr>`_
 
 Extreme anger about init system call-for-votes:
 
    This unannounced CFV is an abuse of process.  I am EXTREMELY ANGRY
    and I will sponsor any GR that seeks to overturn it.
 
-   -- `Ian Jackson, 2014-02-09 <http://lists.debian.org/21239.54254.395132.572483@chiark.greenend.org.uk>`_
+   -- `Ian Jackson, 2014-02-09 <https://lists.debian.org/21239.54254.395132.572483@chiark.greenend.org.uk>`_
 
 .. vim:ts=3 sw=3 et
