@@ -11,22 +11,22 @@ The “testing” distribution proposal:
    the migrate of a package from an unstable-by-definition upload to a released
    state a while back.
 
-   [...]
+   […]
 
-      Any upload of a package is, by definition, "unstable" until proven
+      Any upload of a package is, by definition, “unstable” until proven
       otherwise.
 
       Therefore, uploads should *always* go into the unstable tree.
 
-      The process by which a package is "promoted" from unstable through one or
+      The process by which a package is “promoted” from unstable through one or
       more stages until it becomes part of a stable release needs to involve
       consistency checking, testing, and enough time elapsed to allow
       confidence to build in the package.
 
       The promotion criteria should include a guarantee that the release
       candidate never has dependency issues, never has a package version with a
-      truly "release critical" bug known at the time of promotion, and so
-      forth. Those characteristics will always be part of the unstable tree...
+      truly “release critical” bug known at the time of promotion, and so
+      forth. Those characteristics will always be part of the unstable tree…
       but should *only* be part of the unstable tree!
 
    -- `Bdale Garbee, 1999-01-05 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
@@ -34,10 +34,10 @@ The “testing” distribution proposal:
 The first multi-arch proposal:
 
    I would love to see Debian adopt a solution that allows use of unmodified
-   ia32 (i386 in Debian lingo) packages on ia64 systems... and which is general
+   ia32 (i386 in Debian lingo) packages on ia64 systems… and which is general
    enough to handle the other multi-arch flavors we can anticipate.
 
-   [...]
+   […]
 
    Of course, doing this is a lot of work. Clearly, other distributions
    supporting ia64 have chosen to take more expedient paths. If there's a good
@@ -46,7 +46,7 @@ The first multi-arch proposal:
    clearly an alternative we could consider, for example.
 
    I intend for ia64 to be released stable with woody. I would love for the
-   ia32 user space "problem" to be resolved cleanly by then, but I'm not
+   ia32 user space “problem” to be resolved cleanly by then, but I'm not
    expecting miracles. If I have to hack something interim while waiting for a
    general solution to be implemented, I can probably live with that.
 
@@ -74,7 +74,7 @@ Debian X Strike Force member defending the decision to make the X server depend 
 
 Extreme anger about init system call-for-votes:
 
-   This unannounced CFV is an abuse of process.  I am EXTREMELY ANGRY
+   This unannounced CFV is an abuse of process. I am EXTREMELY ANGRY
    and I will sponsor any GR that seeks to overturn it.
 
    -- `Ian Jackson, 2014-02-09 <https://lists.debian.org/21239.54254.395132.572483@chiark.greenend.org.uk>`_
