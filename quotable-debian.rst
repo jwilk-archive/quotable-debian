@@ -5,6 +5,23 @@ Foundation of Debian:
 
    -- `Ian Murdock, 1993-08-16 <https://groups.google.com/groups?selm=CBusDD.MIK%40unix.portal.com&output=gplain>`_
 
+Proposal of the pool-based archive structure:
+
+   A long time ago […] I was on the verge of proposing a radical change in the
+   way we handle versioning…
+
+   […]
+
+   The general notion is that all package uploads go into a common pool.
+   Scripts on the server routinely build a symlink tree that points to the most
+   recent version of each package in the pool, which is the equivalent of the
+   current ‘unstable’ tree. In fact, there could even be different flavors of
+   instability, with different criteria used by the link tree builder to
+   determine which versions to link to for each tree. Trees of symlinks are
+   cheap.
+
+   -- `Bdale Garbee, 1998-05-29 <https://lists.debian.org/199805290835.CAA07223@chunks.gag.com>`_
+
 The “testing” distribution proposal:
 
    I made a relatively thorough proposal for a different approach to handling
