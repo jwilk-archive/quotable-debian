@@ -46,7 +46,7 @@ The “testing” distribution proposal:
       forth. Those characteristics will always be part of the unstable tree…
       but should *only* be part of the unstable tree!
 
-   -- `Bdale Garbee, 1999-01-05 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
+   -- `Bdale Garbee, 1999-01-05 <https://lists.debian.org/199901060618.XAA17819@rover.gag.com>`_
 
 The first multi-arch proposal:
 
