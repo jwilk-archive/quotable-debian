@@ -136,4 +136,4 @@ Extreme anger about init system call-for-votes:
 
    -- `Ian Jackson, 2014-02-09 <https://lists.debian.org/21239.54254.395132.572483@chiark.greenend.org.uk>`_
 
-.. vim:ts=3 sw=3 et
+.. vim:ts=3 sts=3 sw=3 et
