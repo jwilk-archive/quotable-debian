@@ -2,7 +2,7 @@
 all: quotable-debian.html
 
 %.html: %.rst
-	rst2html $(<) $(@)
+	rst2html --strict $(<) $(@)
 
 .PHONY: clean
 clean:
