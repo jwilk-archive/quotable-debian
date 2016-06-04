@@ -2,7 +2,7 @@
 all: quotable-debian.html
 
 %.html: %.rst
-	rst2html --strict $(<) $(@)
+	rst2html --strict --input-encoding=UTF-8 $(<) $(@)
 
 .PHONY: clean
 clean:
