@@ -129,6 +129,17 @@ Debian X Strike Force member defending the decision to make the X server depend 
 
    -- `Julien Cristau, 2009-04-15 <https://lists.debian.org/1239821223.25727.25.camel@radis.liafa.jussieu.fr>`_
 
+Jörg Schilling's schilyutils REJECTed from the NEW queue:
+
+   […] this reject is the conclusion of a long and very intricate relation
+   between upstream and the FLOSS community. As the past has shown there is a
+   lot of very heated discussions ongoing, sometimes downright to threats of
+   law suits, and we fear that even your offer to act as proxy between the
+   Debian project and upstream won't prevent discussions like happened in the
+   past.
+
+   -- `Debian FTPMasters, 2010-02-24 <https://lists.alioth.debian.org/pipermail/debburn-devel/2010-February/000765.html>`_
+
 Extreme anger about init system call-for-votes:
 
    This unannounced CFV is an abuse of process. I am EXTREMELY ANGRY
