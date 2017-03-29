@@ -1,9 +1,9 @@
 rst2html = $(or $(shell which rst2html),rst2html.py)
 
 .PHONY: all
-all: quotable-debian.html
+all: README.html
 
-%.html: %.rst
+README.html: README
 	$(rst2html) --strict --input-encoding=UTF-8 $(<) $(@)
 
 .PHONY: clean
